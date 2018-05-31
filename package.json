@@ -4,6 +4,10 @@
   "description": "Distributed Class / Bamboo support for VSCode.",
   "version": "0.0.1",
   "publisher": "ChristianWilson",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seaboy1234/dclass-vscode.git"
+  },
   "engines": {
     "vscode": "^1.23.0"
   },
