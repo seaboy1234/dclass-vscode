@@ -1,0 +1,28 @@
+{
+  "name": "dclass-vscode",
+  "displayName": "dclass-vscode",
+  "description": "Distributed Class / Bamboo support for VSCode.",
+  "version": "0.0.1",
+  "publisher": "Christian Wilson",
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "categories": ["Programming Languages"],
+  "contributes": {
+    "languages": [
+      {
+        "id": "dclass",
+        "aliases": ["dclass", "dclass"],
+        "extensions": [".dc"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "dclass",
+        "scopeName": "text.code.dclass",
+        "path": "./syntaxes/dclass.tmLanguage.json"
+      }
+    ]
+  }
+}
