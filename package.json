@@ -3,7 +3,7 @@
   "displayName": "dclass-vscode",
   "description": "Distributed Class / Bamboo support for VSCode.",
   "version": "0.0.1",
-  "publisher": "Christian Wilson",
+  "publisher": "ChristianWilson",
   "engines": {
     "vscode": "^1.23.0"
   },
